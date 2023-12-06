@@ -189,7 +189,115 @@
 }
 
 .skill .skill-description {
-    color:#757575;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Education Experience Styles */
+
+.education-experience-container {
+    display: flex;
+}
+
+.column h3 {
+
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.department {
+
+    background: #FFF;
+    border-bottom: 1px solid #D1D1D1;
+    margin-right: 20px;
+
+}
+
+.dep-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.dep-name {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.dep-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* CV button Styles */
+
+.cv-btn-container {
+    margin: 0px 180px 113px 180px;
+}
+
+
+.cv-btn button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+
+.footer-container {
+    background: #FFF8F3;
+    padding: 130px 180px;
+}
+
+.footer-boundary {
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.footer-column {
+    margin-right: 117px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    width: 540px;
+    margin: 20px 0 30px 0;
+
+}
+
+.inputmargin {
+    margin-top: 20px;
+}
+
+.inputstyle {
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    margin-bottom: 24px;
+
+    display: block;
+}
+
+input::placeholder{
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
