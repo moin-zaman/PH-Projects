@@ -58,10 +58,10 @@
 
 .header {
     background: #FFF8F3;
-    background-image: url("/images/header_bg.png");
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 665px;
+    background-position: right bottom, left bottom;
+    background-size: 665px, 90px;
 }
 
 /* Banner Section Style */
