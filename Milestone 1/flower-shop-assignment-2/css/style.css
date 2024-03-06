@@ -1,0 +1,274 @@
+/* Common Styles */
+
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Btn Style */
+
+.commonBtnStyle {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+
+    color: #FFF;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 700;
+
+    padding: 20px 43px;
+}
+
+
+.commonBoundary {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.commonDescription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 580px;
+    margin: 0 auto;
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+.commonTitle {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+/* banner Styles */
+
+.bannerSection {
+    background: rgba(229, 84, 115, 0.10);
+
+    padding: 50px 150px 0px;
+}
+
+.bannerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerTitle {
+    color: #272727;
+    font-size: 68px;
+    font-weight: 800;
+
+    max-width: 580px;
+}
+
+.bannerDescription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+    max-width: 540px;
+
+    margin: 32px 0px;
+}
+
+.bannerImage {
+    max-width: 480px;
+    height: 610px;
+}
+
+
+/* main Styles Starts */
+
+.featuredSection {
+    margin-top: 175px;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+
+.flowersContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flower img.flw {
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    width: 300px;
+    height: 300px;
+}
+
+.flowerCaption {
+    padding-top: 10px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.deliverySection {
+    margin: 128px 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery {
+    padding: 80px 90px;
+}
+
+
+.deliveryCentering {
+    text-align: center;
+}
+
+
+.delFigCap {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.hotSection {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.hotContainer {
+    display: flex;
+    align-items: center;
+}
+
+.hotInfo {
+    margin-right: 150px;
+    margin: 100px;
+}
+
+
+
+.hotBtn {
+    display: block;
+    margin: 0 auto;
+}
+
+.hotPic {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.instaSection {
+    margin: 120px 150px 0px;
+}
+
+
+.flower2Section {
+    margin-left: 150px;
+    margin-right: 150px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flw2 {
+    width: 275px;
+
+}
+
+
+/* Deal Section */
+
+
+.dealSection {
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    background-image: url('../Flower\ Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: yellow;
+
+
+}
+
+.inputBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.dealInput {
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+
+    margin-right: 15px;
+
+    width: 500px;
+    height: 64px;
+
+}
+
+input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 400;
+    padding: 23px 22px 23px 22px;
+}
+
+
+.footerSection {
+    margin-top: 130px;
+
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    background: #111010;
+}
+
+.footerTitle {
+    color: #E55473;
+}
+
+.shop {
+    color: #FFF;
+}
+
+.footerDescription {
+    color: #FFFFFFE5;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+}
