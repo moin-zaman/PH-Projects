@@ -393,3 +393,169 @@ input::placeholder {
     font-weight: 400;
     
 }
+
+
+/* Responsive Style */
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+
+    .navBar{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 95%;
+    }
+
+    .navTitle{
+        font-size: 30px;
+    }
+
+    .navList{
+        margin-left: 20px;
+    }
+
+    .commontBtStyle{
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+    .bannerSection{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .bannerGreeting{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .bannerTitle{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .bannerDescription{
+        width: 95%;
+        text-align: center;
+
+        padding-left: 5px;
+
+    }
+
+    .btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .bannerSection .bannerPic{
+        width: 95%;
+        margin-right: 0px;
+        height: auto;
+
+    }
+
+    .aboutSection{
+        margin-left: 0px;
+        margin-right: 0px;
+
+        padding-top: 60px;
+    }
+
+    .aboutDescription{
+        width: 95%;
+    }
+
+    .aboutContact{
+        flex-direction: column;
+    }
+
+    .abcInfo{
+        margin-bottom: 10px;
+    }
+
+    .abcDescription{
+        text-align: center;
+
+    }
+
+    .whatSection{
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .whatDescription{
+        width: 95%;
+    }
+
+    .skillsSection{
+        flex-direction: column;
+
+        margin-left: 0px;
+        margin-right: 0px;
+
+        margin-bottom: 60px;
+    }
+
+    .summarySection{
+        margin: 0px;
+    }
+
+    .summaryTitle{
+        font-size: 30px;
+    }
+
+    .academicSection{
+        margin: 60px 0px;
+
+        flex-direction: column;
+    }
+
+    .educationsContainer{
+        margin-right: 0px;
+        padding-left: 15px;
+    }
+
+    .experienceContainer{
+        padding-left: 15px;
+    }
+
+    .downloadCv{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 60px;
+    }
+
+    .footerSection{
+        flex-direction: column;
+
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 60px;
+    }
+
+    .connect{
+        padding: 0px;
+    }
+
+    .footerTitle{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .footerDescription{
+        text-align: center;
+        width: 95%;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+}
