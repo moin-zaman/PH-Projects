@@ -79,8 +79,94 @@
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-    
+
     border: 0;
     display: block;
     margin: 0 auto;
+}
+
+.Cardcontainer {
+    width: 1056px;
+    margin: 90px auto;
+}
+
+.Cardcontainer .cardIntro {
+    width: 430px;
+    margin: 0 auto;
+}
+
+.Cardcontainer .cardsubTitle {
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Cardcontainer .cardTitle {
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.Cardcontainer .cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 330px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.Cardcontainer .card .cardSpan {
+
+    width: 130px;
+    border-radius: 4px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin: 12px auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cardcontainer .discount {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 14px 0;
+}
+
+.Cardcontainer .cardDes {
+    color: rgb(16, 16, 16);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.btn2{
+    width: 170px;
 }
