@@ -38,28 +38,21 @@ donateBtnNoa.addEventListener('click', function () {
         document.getElementById('donate-amount-show-noakhali').innerText = totalDonatedAmountNoakhali;
         document.getElementById('donate-balance-available-nav').innerText = totalDonationAvailableAmount;
 
+        // Bonus Modal Section Open after clicking Donate Button
+
+        modal.showModal();
 
 
         // History Part
 
-        const donatedLocationNoakhali = document.getElementById('donate-location-noakhali').innerText;
-
-        const createHistoryDiv = document.createElement('div');
-
-        createHistoryDiv.innerText = `${donateAmountNoakhali} Taka is ${donatedLocationNoakhali}`;
-
-
-        createHistoryDiv.classList.add('max-w-screen-xl', 'mx-auto', 'box-border', 'border', 'border-1', 'bg-yellow-200', 'rounded-3xl', 'shadow-lg', 'p-5', 'mb-4');
-
+        const createHistoryDiv = getDonatedLocation('donate-location-noakhali', donateAmountNoakhali);
 
         historyDivByID.appendChild(createHistoryDiv);
         console.log(createHistoryDiv);
 
 
-        // Bonus Modal Section Open after clicking Donate Button
 
-
-        modal.showModal();
+        
 
     }
 
