@@ -1,6 +1,7 @@
 const donationFeatureBtn = document.getElementById('btn-donation-feature');
 const historyFeatureBtn = document.getElementById('btn-history-feature');
 
+const blogNavBtn = getIdForFacilitiesByID('btn-blog-nav');
 
 // Donation Button
 
@@ -45,4 +46,18 @@ historyFeatureBtn.addEventListener('click', function(){
 
 
 });
+
+// Navigate To Blog Page
+
+blogNavBtn.addEventListener('click', function(){
+
+    window.location.assign('./blog.html');
+
+});
+
+
+
+
+
+
 
