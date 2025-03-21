@@ -32,22 +32,20 @@ donateBtnFeni.addEventListener('click', function () {
         document.getElementById('donate-amount-show-feni').innerText = totalDonatedAmountFeni;
         document.getElementById('donate-balance-available-nav').innerText = totalDonationAvailableAmount;
 
+       
+        // Bonus Modal Section Open after clicking Donate Button
+
+        modal.showModal();
+
         // History Part
 
-        const donatedLocationFeni = document.getElementById('donate-location-feni').innerText;
-
-        const createHistoryDiv = document.createElement('div');
-
-        createHistoryDiv.innerText = `${donateAmountFeni} Taka is ${donatedLocationFeni}`;
-
-
-        createHistoryDiv.classList.add('max-w-screen-xl', 'mx-auto', 'box-border', 'border', 'border-1', 'bg-yellow-200', 'rounded-3xl', 'shadow-lg', 'p-5', 'mb-4');
-
+        const createHistoryDiv = getDonatedLocation('donate-location-feni', donateAmountFeni);
 
         historyDivByID.appendChild(createHistoryDiv);
         console.log(createHistoryDiv);
 
-        modal.showModal();
+
+        
     }
 
 
